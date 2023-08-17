@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<main class="d-flex mx-auto">
+		<div class="flex-shrink-0 p-3 bg-red aside-menu" <a href="/"
+			class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+			<span class="fs-5 fw-semibold ">
+				<a href="index1.html" class="text-decoration-none"><h1 class="text-center text-primary"><i>E</i>Demo</h1></a>
+			</span>
+			</a>
+
+			<ul class="list-unstyled ps-0">
+				<li class="mb-4">
+					<button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 bg-danzer text-white bg-white
+						collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+						<i class="bi bi-grid-1x2 ms-5 pe-4 text-dark"></i><span style="color:#071d97">Dashboard</span>
+					</button>
+				</li>
+				<li class="mb-4">
+					<button class="btn btn-toggle fw-normal d-inline-flex align-items-center rounded border-0 collapsed text-white"
+						data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+						<i class="bi bi-grid pe-4  ms-5  text-dark"></i><span style="color:#000">Campign</span>
+					</button>
+				</li>
+				<li class="mb-4">
+					<button class="btn btn-toggle fw-normal d-inline-flex align-items-center rounded border-0 collapsed text-white"
+						data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+						<i class="bi bi-columns ms-5  pe-4  text-dark"></i><span style="color:#000">Audience</span>
+					</button>
+				</li>
+				
+				<li class="mb-4">
+					<button class="btn btn-toggle fw-normal d-inline-flex align-items-center rounded border-0 collapsed text-white"
+						data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+						<i class="bi bi-bar-chart-line pe-4  ms-5 text-dark "></i><span style="color:#000">performence</span>
+					</button>
+				</li>
+				<li class="mb-4">
+					<button class="btn btn-toggle fw-normal d-inline-flex align-items-center rounded border-0 collapsed text-white"
+						data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+						<i class="bi bi-book-half pe-4 ms-5  text-dark"></i><span style="color:#000">Promote</span>
+					</button>
+				</li>
+				<li class="mb-4">
+					<button class="btn btn-toggle fw-normal d-inline-flex align-items-center rounded border-0 collapsed text-white"
+						data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+						<i class="bi bi-person pe-4  ms-5 text-dark"></i><span style="color:#000">Profile</span>
+					</button>
+				</li>
+				<li class="mb-4">
+					<button class="btn btn-toggle fw-normal d-inline-flex align-items-center rounded border-0 collapsed text-white"
+						data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+						<i class="bi bi-gear pe-4  ms-5 text-dark"></i></i><span style="color:#000">Settings</span>
+					</button>
+				</li>
+				<div class="d-flex align-items-center ">
+					<img src="assets/images/jk.png" alt="" class="profile-img ">
+
+					<h6 class="mt-2 mx-2">Candidate</h6>
+					<i class="bi bi-three-dots bg-white px-1 mt-1"></i>
+				</div>
+
+			</ul>
+		</div>
+		<div class="bg-light w-100 overflow-auto vh-100 p-3">
+			<div class="d-flex align-items-center">
+					<div class="mrng">
+						<h3>Good Morning, Candidate!</h3> 
+					</div>
+					<button type="button" class="btn btn-dark position-relative ms-auto">
+						<i class="bi bi-bell"></i>
+						<span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+						  <span class="visually-hidden">New alerts</span>
+						</span>
+					  </button>
+			</div>
+			<div class="row m-2 align-items-center bg-white rounded-3 ">
+				<div class="col-3 p-4 box">
+					<div class="row txtborder">
+						<div class="col-7">
+							<p>Available to withdraw</p>
+						</div>
+						<div class="col">
+							<p1 class="bgcolor "><i class="bi bi-arrow-up"></i>10.0%</p1>
+						</div>
+						<h3 class="mb-3">$1,567.99k</h3>
+						<div class="col-7">
+							Wed, july 20
+						</div>
+					</div>
+				</div>
+				<div class="col-3 py-2 box ">
+					<div class="row txtborder">
+						<div class="col">
+							<p>Today Revenue</p>
+						</div>
+						<div class="col">
+							<p class="bgcolor-1 "><i class="bi bi-arrow-down"></i>3.0%</p>
+						</div>
+						<h3 class="mb-3">$2,868.99k</h3>
+						<div class="col-7">
+							143 orders
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-3 py-2 box ">
+					<div class="row txtborder">
+						<div class="col">
+							<p>Today Session
+							</p>
+						</div>
+						<div class="col">
+							<p class="bgcolor"><i class="bi bi-arrow-up"></i>3.2%</p>
+						</div>
+						<h3 class="mb-3">156k</h3>
+						<div class="col-7">
+							32k visitors
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col py-2 box ">
+					<div class="row">
+						<div class="col">
+							<p>Total</p>
+						</div>
+						<div class="col">
+							<p class="bgcolor-4"><i class="bi bi-arrow-up"></i>8.3%</p>
+						</div>
+						<h3 class="mb-3 mt-2">3,422</h3>
+						<div class="col-12">
+							$34.28 Average order
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="container my-4">
+				<div class="d-flex">
+					<div class=" rounded-3  bg-white stack me-4 p-3">
+						<div class="d-flex   align-items-center">
+							<img src="assets/images/slogo.png" alt=" logo" class="bg-light p-2 me-2 rounded-circle w-25">
+							<div class="text-1 ms-4">
+								<h1>Slack</h1>
+								<p>Slack corporation</p>
+							</div>
+							<img src="assets/images/star.png" alt=" star" class="bg-light p-2 rounded-circle ms-auto ">
+							<i class="bi bi-three-dots-vertical fs-4"></i>
+						</div>
+						<div class="d-flex my-2 ">
+							<button type="button" class="btn btn-1">Completed</button>
+							<button type="button" class="btn btn-2 ms-auto">Medium Priority</button>
+						</div>
+						<p calss="text-2">Task Done: 20 /30</p>
+						<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar w-50"></div>
+						</div>
+						<div class="d-flex my-4">
+							<button type="button" class="btn btn-1">IOS APP</button>
+							<button type="button" class="btn btn-3 ms-5">ANDROID</button>
+						</div>
+						<button type="button" class="btn btn-4 my-2 ">DUE DATE: 15 JULY</button>
+					</div>
+					<div class=" bg-white rounded-3 me-4 p-3 activity">
+						<p >Activies</p>
+						<div class=" matter-1 d-flex">
+							<img src="assets/images/3D 04.png" alt="image" class="img-3d">
+							<div class="ms-3">
+								<h2>Edited the details of Project X</h2>
+								<p>5m ago</p>
+							</div>	
+						</div>
+						<div class=" matter-1 d-flex">
+							<img src="assets/images/3D 05.png" alt="image" class="img-3d">
+							<div class="ms-3">
+								<h2>ByeWind</h2>
+								<p>1.323 AM</p>
+							</div>	
+						</div>
+						<div class=" matter-1 d-flex">
+							<img src="assets/images/Male 02.png" alt="image" class="img-3d">
+							<div class="ms-3">
+								<h2>Deleted a page in Project X</h2>
+								<p>Aug 11</p>
+							</div>	
+						</div>
+						<div class=" matter-1 d-flex">
+							<img src="assets/images/Aliah Lane.png" alt="image" class="img-3d">
+							<div class="ms-3">
+								<h2>Subimitted a bug</h2>
+								<p>Yesterday 12.39 AM</p>
+							</div>	
+						</div>
+						<div class=" matter-1 d-flex">
+							<img src="assets/images/Male 02.png" alt="image" class="img-3d">
+							<div class="ms-3">
+								<h2>Modified A data in Page X</h2>
+								<p>Last Thursday 3.34 AM</p>
+							</div>	
+						</div>
+
+					</div>
+					<div class=" bg-white rounded-3 me-4 p-3 device">
+						<p >Device Category</p>
+						<div class="d-flex my-4 phone justify-content-between mt-5">
+							<i class="bi bi-phone "></i>
+							<p>Mobile</p>
+							<h1>996.42%</h1>
+						</div>
+						<div class="d-flex my-4 phone justify-content-between">
+							<i class="bi bi-pc-display-horizontal"></i>
+							<p>Desktop</p>
+							<h1>2.76%</h1>
+						</div>
+						<div class="d-flex my-4 phone justify-content-between">
+							<i class="bi bi-tablet"></i>
+							<p>Tablet</p>
+							<h1>0.82%</h1>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="container my-3 bg-white rounded-3 p-3">
+				<div class="d-flex  Campaign">
+					<p>Campaign Performance</p>
+					<button type="button" class="btn btn-5 ms-auto">See All</button>
+				</div>
+				<div class="d-flex my-3">
+					<div>
+						<table>
+							<tr style="color:#949494; border-bottom:1px solid #d8d2d2 ">
+								<td>Campaign</td>
+								<td>Impression</td>
+								<td>Clicks</td>
+								<td>CPC</td>
+								<td>Spend</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"><i class="fa-brands fa-google my-2"></i></a>
+									<span class="adds ms-2">Google Ads</span>
+								</td>
+								<td>189k</td>
+								<td>9k</td>
+								<td>$8.12</td>
+								<td>$56,123.12</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"> <i class="fa-brands fa-tiktok my-2"></i></a>
+									<span class="adds ms-2">Tik Tok</span>
+								</td>
+								<td>287k</td>
+								<td>15k</td>
+								<td>$12.12</td>
+								<td>$40,123.12</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"><i class="fa-brands fa-instagram my-2"></i></a>
+									<span class="adds ms-2">Instagram</span> 
+								</td>
+								<td>156k</td>
+								<td>12k</td>
+								<td>$5.12</td>
+								<td>$39,123.12</td>
+							</tr>
+						</table>
+					</div>
+					<div class="box-sha p-3 ms-auto">
+						<div class="dropdown mb-5 ">
+							<button class="btn btn-6 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Annual Revenue
+							</button>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="#">Action</a></li>
+							  <li><a class="dropdown-item" href="#">Another action</a></li>
+							  <li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						  </div>
+						  <h1>$56,123.12</h1>
+						  <p>Modified A data in Page X</p>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+h1{color:red;}
+body { min-height: 100vh; min-height: -webkit-fill-available;background-color:#f9fafc;font-family: 'Poppins', sans-serif;}
+html {height: -webkit-fill-available;}
+main {height: 100vh;height: -webkit-fill-available; max-height: 100vh; overflow-x: auto;overflow-y: hidden;}
+.dropdown-toggle { outline: 0; }
+.btn-toggle {padding: .25rem .5rem;font-weight: 600;color: white; background-color: transparent;position: relative;width: 100%;}
+.btn-toggle:hover,
+.btn-toggle:focus {color: rgba(0, 0, 0, .85);background-color: #40daee; opacity: .8;}
+.btn-toggle[aria-expanded="true"] {color: rgba(0, 0, 0, .85);}
+.btn-toggle[aria-expanded="true"]::after {transform: rotate(90deg);text-align:end;}
+.btn-toggle-nav a { padding: .1875rem .5rem;margin-top: .125rem;margin-left: 1.25rem;}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {background-color: #a3a7d3;opacity: .8;
+}
+.scrollarea {overflow-y: auto;}
+.aside-menu{width: 280px; min-height:100vh; overflow:auto;}
+.mrng{font-weight: 600;font-size: 28px;line-height: 34px;}
+.bgcolor{background-color: #f4f6f5; border-radius: 15px; display:block; display:inline-block;padding: 3px;}
+.bgcolor-1{ background-color:#ff00004d; border-radius: 15px; display:block; display:inline-block;padding: 3px;}
+.bgcolor-4{background-color: #f4f6f5; border-radius: 15px; display:block; display:inline-block;}
+.bell{background-color: #ccc; padding: 3px 7px;}
+.txtborder{border-right:1px dashed #ccc; margin-right: 10px;}
+.profile-img{width:30px; height:30px; border-radius: 50%;}
+.slogo{width: 50px;}
+.star{border: 1px solid #ccc; border-radius: 50%;  padding: 10px;}
+.box p{font-weight: 400; font-size: 16px; line-height: 19px;color: #7D7D7D;} 
+.box h3{font-weight: 700;font-size: 28px;line-height: 34px; color:#1a2b88}
+.text-1 h1{font-weight: 700; font-size: 22.4024px;line-height: 27px;color: #000;}
+.text p{font-weight: 500;font-size: 16px;line-height: 19px;color: #65676D;}
+.stack{width: 40%;}
+.btn-1{color: #60B158; background-color: #F0F8EF;font-weight: 700;line-height: 15px;font-size: 12px;}
+.btn-1:hover{color: #F0F8EF; background-color: #60B158;}
+.btn-2{border: 1px solid #60B158; color: #60B158;font-weight: 700;font-size: 12px;}
+.btn-2:hover{color: #60B158; background-color: #F0F8EF;}
+.text-1-2{font-weight: 400;font-size: 16px;line-height: 19px;color: #7d7d7d;}
+.btn-3{font-weight: 700;font-size: 12px;line-height: 15px; color: #FFA800; background-color: #FFF5E1;}
+.btn-3:hover{color: #FFF5E1; background-color: #FFA800;}
+.btn-4{font-weight: 700;font-size: 12px;line-height: 15px; color: #FD7B38;background-color:  #FFF2EC;}
+.btn-4:hover{color: #FFF5E1; background-color:#FD7B38;}
+.activity, .device{width:35%;}
+.activity p{font-weight: 600;  font-size: 14px;line-height: 20px; color: #1c1c1c;}
+.matter-1 h2{font-weight: 400;font-size: 14px;line-height: 20px;color: #1c1c1c; margin: 0;}
+.matter-1 p{font-weight: 400;font-size: 12px;line-height: 18px; color: #ccc;}
+.img-3d{width: 40px;height: 40px;}
+.device p{font-weight: 700;font-size: 22.4024px;line-height: 27px; margin-bottom: 20px;}
+.bi bi-phone, .bi bi-pc-display-horizontal, .bi bi-table{font-weight: 700; color: #1A2B88; background-color: #F2F1FF; border-radius: 10px; padding: 10px;}
+.phone p{font-weight: 400;font-size: 16px;line-height: 19px;}
+.phone h1{font-weight: 700;font-size: 18px;line-height: 22px;color: #1A2B88;}
+.btn-5{font-weight: 700;font-size: 14px;line-height: 17px; color:  #1A2B88; background-color: #F6F6F6;}
+.Campaign{font-weight: 500;font-size: 22.4024px;line-height: 27px;}
+.box-sha{width: 290.66px;height: 187.54px;background: linear-gradient(235.22deg, #F2F1FF 4.75%, #1A2B88 71%);box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);border-radius: 6px;}
+.btn-6{font-weight: 700;font-size: 14px;line-height: 17px;color: #1A2B88;background-color: #F6F6F6;}
+.btn-6:hover{color: #f6f6f6;background-color: #1A2B88;}
+.box-sha h1{font-weight: 600;font-size: 36px;line-height: 44px; color: #fff;}
+.box-sha p{color: #fff;font-weight: 400;font-size: 14px;line-height: 20px;}
+.fa-brands{background-color: #253275; color: #fff;font-size: 15px; border-radius: 50%;padding: 15px;}
+.adds{font-weight: 700;font-size: 16px;line-height: 19px;}
+table tr{margin-bottom: 20px;}
+table tr td{padding-right: 50px;}
+
+
+
+
+
+
